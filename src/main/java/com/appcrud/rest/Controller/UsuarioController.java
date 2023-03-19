@@ -40,31 +40,4 @@ public class UsuarioController {
             return "usuario no encontrado";
         }
     }
-
-
-
-
-
-    /*
-    @GetMapping(value = "/users")
-    public List<Usuario> getusers(){
-        return usuarioRepository.findAll();
-    }
-
-    @PostMapping(value = "saveuser")
-    public String saveUser(@RequestBody Usuario usuario){
-        usuarioRepository.save(usuario);
-        return "Saved user";
-    }
-
-    @PutMapping(value = "/update/{id}")
-    public String updateUser(@PathVariable long id, @RequestBody Usuario usuario){
-        return "Updated user";
-    }
-
-    @DeleteMapping(value = "/delete/{id}")
-    public String deletedUser(@PathVariable long id){
-        return "deleted user";
-    }
-*/
 }
